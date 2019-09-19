@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            
+            body {
+                background-color: rgb(182, 214, 163);
+            }
+            
+            h1 {
+                color: rgb(87, 99, 158);
+            }
+            
+            h2 {
+                color: rgb(126, 130, 145);
+            }
+            
+            h3 {
+                color: rgb(212, 32, 212);
+            }
+            
+            #end-paragraph {
+                background-color: rgb(88, 130, 214);
+            }
+            
+            .inform {
+                background-color: rgb(93, 159, 194);
+            }
+            
+        </style>
+        
+    </head>
+    <body>
+    
+        <h1>Travel to Prince Edward Island!</h1>
+        
+        <h2> A place of wonderous beachs, food, and attractions!</h2>
+        
+        <h3>What is Prince Edward Island?</h3>
+        <p class="inform">Prince Edward Island is a small island, about <em><Strong>5660km²</Strong></em>, and has a population of around <em><strong>~150000~ people</strong></em>. Red mud, potates, and fish galore, even though it's small, it has a lot of things to do!</p>
+        
+        <h3>Where is Prince Edward Island?</h3>
+        <p class="inform">Prince Edward Island, or P.E.I for short, is one of the most <em><Strong>eastern provinces in Canada.</Strong></em> Surronded by the great <em><Strong>Atlantic Ocean</Strong></em>.</p>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Prince_Edward_Island_in_Canada_%28special_marker%29.svg/1200px-Prince_Edward_Island_in_Canada_%28special_marker%29.svg.png" alt ="A map of Canada, with Prince Edward Island being highlighted in red" width ="203">
+        
+        <h3>Why go to Prince Edward Island?</h3>
+        <p class="inform"> In Prince Edward Island, the beachs are some of the best in the world. With crystal clear water, <em><strong>warm</strong></em> enticing waters, and exotic aqutaic life!</p>
+        
+       <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Pagurus_bernhardus.jpg" alt ="Image of the cutest Hermit Crab ever!" width ="203">
+        
+        <p class ="inform"> The food in Prince Edward Island is fantastic, with local quisine including <em><Strong>Fish n' Chips servered with a P.E.I. fork, Lobster Rolls, and Ice Cream</Strong></em>, made with the best dairy!</p>
+        
+        <p class ="inform">Here's my list of favourite to least favourite</p>
+        
+        <ol class = "inform">
+            <li>Lobster Roll</li>
+            <li>Ice Cream</li>
+            <li>Fish n' Chips</li>
+        </ol>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Lobster_roll.jpg/1200px-Lobster_roll.jpg" alt ="A delicious hot lobster roll" width ="203">
+        
+        <p class ="inform">The attractions in Prince Edward Island are ones you may never see if you don't go. Such as the many <em><Strong>Anne of Green Gables</strong></em> exhibit <em><Strong>in Charlottetown</Strong></em>. The small island is a also home to Confederation of Canada! You can go to the building <em><Strong>where Confederarion was born</Strong></em>, or drive over Confederaion Bridge when travelling to P.E.I. Finally, <em><Strong>North Cape</Strong></em> is one of the nicest places in P.E.I., which has a beach with a <em><Strong>rock reef</Strong></em>, which you can walk on at low-tide. And at high-tide, you can go to the <em><Strong>light-house gift-shop</Strong></em> and pick up some souveiners, and go through the attraction.</p>
+        
+        <p class="inform"> Here's a list just to show you some places or things to go to or do.</p>
+        
+        <ul class="inform">
+            <li>Anne of Green Gables Exhibit</li>
+            <li>North Cape</li>
+            <li>Charlottetown</li>
+            <li>Deep Sea Fishing</li>
+            <li>All the other beaches</li>
+        </ul>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Green_Gables.jpg" alt ="A picture of the Anne of Green Gables Attraction" width ="203">
+        
+        <h3>When should I go to Prince Edward Island?</h3>
+        
+        <p class="inform">The <em><Strong>best time to go</strong></em> to Prince Edward Island is in the <em><Strong>Summer</strong></em>. This is the time where the island is the <em><Strong>warmest and beach time is all the time</strong></em>.</p>
+        
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Black_Marsh_Trail%2C_North_Cape%2C_PEI_%2834995507134%29.jpg/1200px-Black_Marsh_Trail%2C_North_Cape%2C_PEI_%2834995507134%29.jpg" alt ="An image of a wind farm in North Cape" width ="203">
+        
+        <h3>How should I get to Prince Edward Island?</h3>
+        
+        <p class="inform">When traveling to Prince Edward Island, flying is definitly an option, as to get there quicker. But, if you drive, you get to see things along the way that you wouldn't get to see if you flew. Also, getting to drive on <em><Strong>Confederation Bridge, built in 1999 to connect the mainland to Prince Edward Island,</strong></em> is a experince you'll never see if you fly. Spending a good <em><Strong>10-20 minutes</strong></em> on the bridge, you'll be suspended over the bay connecting to the Atlantic Ocean. All while seeing the island in the distance.</p>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Pano_Confederation_Bridge.jpg/1200px-Pano_Confederation_Bridge.jpg" alt ="Confederation Bridge as seen in 2008" width ="250" height ="125">
+        
+        <p id="end-paragraph">I've gone to Prince Edward Island twice now, and I have to say, it was amazing. If I could go there again, I definitly would.</p>
+        
+    </body>
+</html>
