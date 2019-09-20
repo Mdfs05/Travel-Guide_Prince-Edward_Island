@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        </style>
+    </head>
+    <body>
+       
+        <h1>Marlon's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#lobster-roll-recipe">Lobster Roll</a></li>
+            <li><a href="#french-fry-recipe">French Fries</a></li>
+        </ol>
+        
+        <h2 id="lobster-roll-recipe">Recipe #1</h2>
+        
+        <ul>
+            <li>Time: 20 minutes</li>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td> Lobster</td>
+                <td> 4 Lobster Tails</td>
+            </tbody>
+            <tbody>
+                <td>Mayonaise</td>
+                <td>1/2 Cup</td>
+            </tbody>
+            <tbody>
+                <td>Lemon Juice</td>
+                <td>3 Tablespoons</td>
+            </tbody>
+            <tbody>
+                <td>Inner Celery Stalks and Leaves</td>
+                <td> 2 </td>
+            </tbody>
+            <tbody>
+                <td>Chopped Parsley Leaves</td>
+                <td>2 Tablespoons</td>
+            </tbody>
+            <tbody>
+                <td>Salt and Black Pepper</td>
+                <td>---</td>
+            </tbody>
+            <tbody>
+                <td>Lightly Toasted Rolls</td>
+                <td>4</td>
+            </tbody>
+            <tbody>
+                <td>Melted Butter</td>
+                <td>--- (Brushing rolls)</td>
+            </tbody>
+            
+        </table>
+        
+        <p><strong>Step 1:</strong> Remove the meat from the lobster tails and cut into bite sized pieces.<br><strong>Step 2:</strong>Put in bowl with mayonaise, celery, parlesy, lemon juice, salt and pepper. Mix thourghly.<br> <strong>Step 3:</strong> Coat the rolls with the melted butter. <br> <strong>Note: Put the lobster in the fridge before (5-10 minutes) for a better taste.</strong>
+</p>
+        
+    <p><em>Source for Recipe #1: <a href="https://www.foodnetwork.com/recipes/lobster-rolls-recipe0-1938206"><br>Lobster Roll</a></em></p>
+    
+    <h2 id ="french-fry-recipe">Recipe #2</h2>
+    
+    <ul>
+        <li>Time:</li>
+        <li>Serves:</li>
+    </ul>
+    
+    </body>
+</html>
