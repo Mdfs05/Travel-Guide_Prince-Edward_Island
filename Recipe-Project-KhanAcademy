@@ -4,6 +4,15 @@
         <title>Project: Recipe book</title>
         <meta charset="utf-8">
         <style>
+        
+        body {
+            background-color: rgb(179, 133, 179);
+        }
+        
+        .name-recipe {
+            background-color: rgb(117, 114, 76);
+        }
+        
         </style>
     </head>
     <body>
@@ -15,9 +24,11 @@
         <ol>
             <li><a href="#lobster-roll-recipe">Lobster Roll</a></li>
             <li><a href="#french-fry-recipe">French Fries</a></li>
+            <li><a href="#chicken-strip-recipe">Chicken Strips</a></li>
         </ol>
         
         <h2 id="lobster-roll-recipe">Recipe #1</h2>
+        <h4 class ="name-recipe">Lobster Roll</h4>
         
         <ul>
             <li>Time: 20 minutes</li>
@@ -53,7 +64,7 @@
             </tbody>
             <tbody>
                 <td>Salt and Black Pepper</td>
-                <td>---</td>
+                <td>--- (Seasoning)</td>
             </tbody>
             <tbody>
                 <td>Lightly Toasted Rolls</td>
@@ -69,14 +80,98 @@
         <p><strong>Step 1:</strong> Remove the meat from the lobster tails and cut into bite sized pieces.<br><strong>Step 2:</strong>Put in bowl with mayonaise, celery, parlesy, lemon juice, salt and pepper. Mix thourghly.<br> <strong>Step 3:</strong> Coat the rolls with the melted butter. <br> <strong>Note: Put the lobster in the fridge before (5-10 minutes) for a better taste.</strong>
 </p>
         
-    <p><em>Source for Recipe #1: <a href="https://www.foodnetwork.com/recipes/lobster-rolls-recipe0-1938206"><br>Lobster Roll</a></em></p>
+    <p><em>Source for Recipe #1: <a href="https://www.foodnetwork.com/recipes/lobster-rolls-recipe0-1938206"><br>Lobster Roll: Food Network</a></em></p>
     
     <h2 id ="french-fry-recipe">Recipe #2</h2>
+    <h4 class ="name-recipe">French Fries</h4>
     
     <ul>
-        <li>Time:</li>
-        <li>Serves:</li>
+        <li>Time: 2 hours and 50 minutes</li>
+        <li>Serves: 8</li>
     </ul>
+    
+    <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td> Russet Potatoes</td>
+                <td> 5 Pounds</td>
+            </tbody>
+            <tbody>
+                <td>Vegtable Oil</td>
+                <td>--- (For Frying)</td>
+            </tbody>
+            <tbody>
+                <td>Sea Salt</td>
+                <td>--- (Seasoning)</td>
+            </tbody>
+            
+              </table>
+<p><strong>Step 1:</strong> Peel and rinse the potatoes, cut each potato into 4-5 pieces, then cut into sticks.<br><strong>Step 2:</strong> Places the cut potatoes in a bowl of cold water, allow them to rest for 2 hours.<br><strong>Step 3:</strong>Take potatoes out of water, and place them on 2 baking sheets, linded with paper towels. Blot the raw french fries on the paper towel to dry.<br><strong>Step 4:</strong>Put a couple inches of oil in a pot, and raise the tempature to 148.8 degrees celsuis, or 300 degrees farenheiht. In 3-4 batches, cook them until they are soft. Which is around 4-5 minutes. Do not let them brown yet. Remove once done and dry.<br><strong>Step 5:</strong> Turn up the tempature to 204.4 degrees celsuis, or 400 degrees farenheit. Fry until golden and crisp. Once done, dry them on a paper towl.<br><strong>Step 6:</strong>Using the sea salt, season them until you think they have enough salt.</p>
+
+<p><em>Source for Recipe #2: <a href ="https://www.foodnetwork.com/recipes/ree-drummond/perfect-french-fries-recipe2-2120420"><br> French Fries: Food Network</a></em></p>
+       
+            <h2 id ="chicken-strip-recipe">Recipe #3</h2>
+            <h4 class ="name-recipe">Chicken Strips</h4>
+            
+            <ul>
+                <li>Time: 55 minutes</li>
+                <li>Serves: 4</li>
+            </ul>
+            
+            <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td> White Bread</td>
+                <td> 8 Slices (8 oz)</td>
+            </tbody>
+            <tbody>
+                <td>Grated Parmesan</td>
+                <td>3 Tablespoons</td>
+            </tbody>
+            <tbody>
+                <td>Minced Parsley Leaves</td>
+                <td>2 Tablespoons</td>
+            </tbody>
+            <tbody>
+                <td>Kosher Salt</td>
+                <td>3/4 Tablespoon</td>
+            </tbody>
+            <tbody>
+                <td>Black Pepper</td>
+                <td>--- (Seasoning)</td>
+            </tbody>
+            <tbody>
+                <td>All-Purpose Flour</td>
+                <td>1 Cup</td>
+            </tbody>
+            <tbody>
+                <td>Large Eggs (Beaten)</td>
+                <td>2</td>
+            </tbody>
+            <tbody>
+                <td>Boneless, Skinless, Chicken Breast</td>
+                <td>3 (8 oz)</td>
+            </tbody>
+            <tbody>
+                <td>Vegtable Oil</td>
+                <td>--- (Frying)
+            </tbody>
+            
+              </table>
+      
+    <p><strong>Step 1:</strong> Preheat the oven to 176.6 degrees celsuis, or 350 degrees farenheit.<br><strong>Step 2:</strong> Tear all the bread to make crumbs. Then, put on microwave safe plate, and microwave it for 1 minute on High. Once finished, put the bread crumbs, along with the parmesan, parsley, kosher salt, and pepper.<br><strong>Step 3:</strong> Put the flour, eggs, and bread crumbs in 3 seperate shallow dishes.<br><strong>Step 4:</strong> With the smooth side of a cooks knife, or the smooth side of a meat pounder, flatten each chicken breast, between two plastic saran wrap, to equal size. Then cut into 1 1/2 inch stips. Dry the chicken breast and season it with salt and pepper. Cover the chicken strips with flour, then shake off the excess. Dip in the eggs, let excess drip off, and then coat with bread crumbs. Lay on waxedpaper when done.<br><strong>Step 5:</strong> Pour 1/4 inch of vegtable oil in a large skillet, and turn to medium heat. Leave until hot and simmering. Place 2-3 chicken strips in the pan at a time, and around after 2 minutes, or until golden brown, flip to equally cook other side. Make sure it's cooked all the way through. Once done, place on paper towel to drain. Then serve.</p>
+    
+   <p><em>Source for Recipe #2: <a href ="https://www.foodnetwork.com/recipes/food-network-kitchen/breaded-chicken-strips-recipe-1953635"><br> Chicken Strips: Food Network</a></em></p>
     
     </body>
 </html>
