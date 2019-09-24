@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+        body{
+            background-color: rgb(138, 159, 181);
+        }
+        h1 {
+            color: rgb(209, 85, 19);
+        }
+            .date-stamp {
+                background-color: rgb(204, 82, 204);
+                font-style: italic;
+            }
+            
+            .paragraph-event {
+                font-family: sans-serif;
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>Marlon's blog!</h1>
+
+        <h3>Contents</h3>
+        <ul>
+            <li><a href ="#vancouver-chinatown-window">First Post: Bad Time in Vancouver</a></li>
+            <li><a href="#golfing-in-saskatchewan">Golfing in Saskatchewan!</a></li>
+        </ul>
+        
+        <h2 id ="vancouver-chinatown-window">First post: Bad Time in Vancouver</h2>
+        <h4 class ="date-stamp">Entry Date: 9/24/2019</h4>
+        <h4 class ="date-stamp">Event Date: Some time in July, 2019.</h4>
+        
+        <p class ="paragraph-event">Something bad happened to me and my family in Chinatown, Vancouver, British Columbia. We got there, we parked in this parking lot that didn't look too good. But we were ignorant. We went around, looked at the sights, including the Olympic Village, which had become a mall. When we came back to our car, we noticed that our window had been smashed in! Further investagation led to the discovery that my unnamed brother, left a valuable object with in the sight of the window, probably enticing them to try and break in. Luckly, they didn't break in all the way, only leaving a smashed window and a greasy face print. Nothing was stolen, thank god! We reported it online, repaired it with hurricane tape, and drove back to Ottawa. Where we got it fixed. Definitly something we won't do next time!</p>
+        
+        <h2 id ="golfing-in-saskatchewan">Golfing in Saskatchewan!</h2>
+        <h4 class ="date-stamp">Entry Date: 9/24/2019</h4>
+        <h4 class ="date-stamp">Event Date: Sometime in July, 2019.</h4>
+        
+        <p class ="paragraph-event">When me and my family were in Saskatchewan this summer, me, my brother, and my dad, decided to go golfing. A 18 hole course, riddled with water/sand traps, and geese. Everything went great, well, sort of. I took a lot of strokes, doing the worst out of the three of us. Also getting a couple of balls in the water traps. But I'd say the most eventful parts, was my putting, and the geese. For starters, there were several times where my putting was on point. There was even one time where I chipped a ball using a 7 iron, right into the hole! Now the other part, the geese. When I mean there were a lot of geese, there were <strong>a lot</strong>. You could walk to the next hole and there would more geese than the last! Also there were pelicans. But now, the one thing that happened was hitting a ball, and it going right into the side of a goose. It hissed, then left, but wasn't injured becuase I can't hit very hard. In fact, a lot of the geese hissed, but they didn't attack us. I'd say it was a fun experince with the geese.</p>
+        
+    </body>
+</html>
