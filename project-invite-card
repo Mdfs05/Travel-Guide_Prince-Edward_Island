@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            
+            body {
+                background-color: rgb(95, 196, 199);
+            }
+            
+            img {
+                margin-right: 280px;
+                border: solid red 7px;
+                
+            }
+            
+            h1 {
+                padding:150px;
+                font-style: italic;
+                font-size: 40px;
+                color: rgb(204, 53, 53);
+            }
+            
+            ul {
+                background-color: rgb(199, 80, 199);
+            }
+            
+            span {
+                background-color: rgb(199, 80, 199);
+            }
+            
+            a {
+                background-color: rgb(204, 224, 182);
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>You're invited!</h1>
+        <h2>To my Beginning of School Party!</h2>
+        
+       
+        <div>
+        <p><strong>The details:</strong></p>
+        <ul>
+            <li>Snacks and Drinks provided.</li>
+            <li>Cool music.</li>
+            <li>School Advice/Homework help.</li>
+        </ul>
+        
+        
+        <p><strong>Location/Time:</strong></p>
+        <p>The party's at <span><em><strong>x</strong></em> street,</span> <span> <strong><em>house number y.</em></strong> </span> <span> <em><strong>5:00 p.m-9:00 p.m. , Saturday, September the 30th</strong></em></span></p>
+        
+        <p><strong>RSVP:</strong></p>
+        <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=new">My Email: -----@gmail.com</a></p>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Kids_and_cake_3.jpg/1200px-Kids_and_cake_3.jpg" alt ="An image of children having a party!!!" width ="150">
+        </div>
+        
+        
+    </body>
+</html>
