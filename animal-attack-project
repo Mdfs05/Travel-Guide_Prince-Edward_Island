@@ -1,0 +1,20 @@
+var bodyX = 200;
+var bodyY = 220;
+var bodyW = 115;
+var bodyH = bodyW/2;
+var eyeSize = 1/5 * bodyX;
+
+draw = function() {
+    background(207, 254, 255);
+    fill(255, 255, 255);
+    
+    //body and face
+    ellipse(bodyX, bodyY, bodyW, 106);
+    ellipse(bodyX, bodyY-70, bodyH, 47); 
+    
+    fill(0, 0, 0);
+    
+    //eyes
+    ellipse(bodyX - 1/5 * eyeSize, bodyY - 70, 10, 10);
+    ellipse(bodyX + 1/5 * eyeSize, bodyY - 70, 10, 10);
+};
