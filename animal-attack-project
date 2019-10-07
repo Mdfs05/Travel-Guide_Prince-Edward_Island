@@ -1,6 +1,6 @@
 var bodyX = 202; //202
-var bodyY = 220; //220
 var bodyW = 120; //120 
+var bodyY = bodyW * 1.82; //220
 var bodyH = bodyW/2;
 var faceSize = bodyW/2;
 var eyeSize = faceSize/8;
@@ -33,16 +33,16 @@ draw = function() {
     ellipse(bodyX + 5/12 * faceSize, bodyY - 90, earSize, earSize);
     
     //mouth
-    rect(bodyX - 1/12 * faceSize, 160, mouthSizeW, mouthSizeH);
+    rect(bodyX - 1/12 * faceSize, bodyY - 60, mouthSizeW, mouthSizeH);
     
     //arms
-    ellipse(bodyX - 10/12 * faceSize, 180, armSizeW, armSizeH);
-    ellipse(bodyX + 10/12 * faceSize, 180, armSizeW, armSizeH);
-    ellipse(bodyX - 10/12 * faceSize, 260, armSizeW, armSizeH);
-    ellipse(bodyX + 10/12 * faceSize, 260, armSizeW, armSizeH);
+    ellipse(bodyX - 10/12 * faceSize, bodyY - 38, armSizeW, armSizeH);
+    ellipse(bodyX + 10/12 * faceSize, bodyY - 38, armSizeW, armSizeH);
+    ellipse(bodyX - 10/12 * faceSize, bodyY + 38, armSizeW, armSizeH);
+    ellipse(bodyX + 10/12 * faceSize, bodyY + 38, armSizeW, armSizeH);
     
     //tail
-    ellipse(bodyX - 0.1/12 * faceSize, 280, tailSizeW, tailSizeH);
+    ellipse(bodyX - 0.1/12 * faceSize, bodyY + 60, tailSizeW, tailSizeH);
     
     
     
