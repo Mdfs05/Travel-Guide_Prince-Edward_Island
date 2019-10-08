@@ -1,6 +1,6 @@
 let x = 0;
 let y = 0;
-let spacing = 10;
+let spacing = 5;
 
 function setup() {
 	createCanvas(400, 400)
@@ -12,10 +12,13 @@ function draw() {
 	if (random(1) < 0.5) {
 		stroke(225, 0, 0);
 		line (x, y, x + spacing, y + spacing);
+		line (x, y + spacing, x + spacing, y);
+			
 	}
 	else{
 		stroke(0, 0, 225);
 		line(x, y + spacing, x + spacing, y);
+		line(x, y, x + spacing, y + spacing);
 	}
 	x = x + 10;
 	if (x > width) {
