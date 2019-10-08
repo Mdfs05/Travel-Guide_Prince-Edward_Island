@@ -1,6 +1,6 @@
 var bodyX = 202; //202
-var bodyW = 120; //120 
-var bodyY = bodyW * 1.82; //220
+var bodyW = 100; //100 
+var bodyY = 100; //220
 var bodyH = bodyW/2;
 var faceSize = bodyW/2;
 var eyeSize = faceSize/8;
@@ -14,38 +14,41 @@ var tuftSizeH = bodyH/1.5;
 var tailSizeW = faceSize/6;
 var tailSizeH = faceSize/4;
 
-draw = function() {
+    
+    draw = function() {
+        
     background(207, 254, 255);
     fill(255, 255, 255);
     ellipse(bodyX, bodyY, bodyW, bodyH * 2); // body?
     fill(0, 0, 0);
-    ellipse(bodyX - 0.1/12 * bodyW, 180, tuftSizeW, tuftSizeH);
+    ellipse(bodyX - 0.1/12 * bodyW, bodyY - 9/27 * bodyW, tuftSizeW, tuftSizeH);
     fill(255, 255, 255);
-    ellipse(bodyX, bodyY-70, faceSize, faceSize - 10); // face?
+    ellipse(bodyX, bodyY-7/12 * bodyW, faceSize, faceSize - 10); // face?
     
+        
     //eyes
     fill (0, 0, 0);
-    ellipse(bodyX- 1/12 * faceSize, bodyY - 70, eyeSize, eyeSize);
-    ellipse(bodyX+ 1/12 * faceSize, bodyY - 70, eyeSize, eyeSize);
+    ellipse(bodyX- 1/12 * faceSize, bodyY - 7/6 * faceSize, eyeSize, eyeSize);
+    ellipse(bodyX+ 1/12 * faceSize, bodyY - 7/6 * faceSize, eyeSize, eyeSize);
     
     //ears
-    ellipse(bodyX - 5/12 * faceSize, bodyY - 90, earSize, earSize);
-    ellipse(bodyX + 5/12 * faceSize, bodyY - 90, earSize, earSize);
+    ellipse(bodyX - 5/12 * faceSize, bodyY - 3/2 * faceSize, earSize, earSize);
+    ellipse(bodyX + 5/12 * faceSize, bodyY - 3/2 * faceSize, earSize, earSize);
     
     //mouth
-    rect(bodyX - 1/12 * faceSize, bodyY - 60, mouthSizeW, mouthSizeH);
+    rect(bodyX - 1/12 * faceSize, bodyY - 1/1 * faceSize, mouthSizeW, mouthSizeH);
     
     //arms
-    ellipse(bodyX - 10/12 * faceSize, bodyY - 38, armSizeW, armSizeH);
-    ellipse(bodyX + 10/12 * faceSize, bodyY - 38, armSizeW, armSizeH);
-    ellipse(bodyX - 10/12 * faceSize, bodyY + 38, armSizeW, armSizeH);
-    ellipse(bodyX + 10/12 * faceSize, bodyY + 38, armSizeW, armSizeH);
+    ellipse(bodyX - 10/12 * faceSize, bodyY - 1/3 * bodyW, armSizeW, armSizeH);
+    ellipse(bodyX + 10/12 * faceSize, bodyY - 1/3 * bodyW, armSizeW, armSizeH);
+    ellipse(bodyX - 10/12 * faceSize, bodyY + 1/3 * bodyW, armSizeW, armSizeH);
+    ellipse(bodyX + 10/12 * faceSize, bodyY + 1/3 * bodyW, armSizeW, armSizeH);
     
     //tail
-    ellipse(bodyX - 0.1/12 * faceSize, bodyY + 60, tailSizeW, tailSizeH);
+    ellipse(bodyX - 0.1/12 * faceSize, bodyY + 1/2 * bodyW, tailSizeW, tailSizeH);
     
-    
-    
+    bodyY = bodyY +1;
+    eyeSize = eyeSize + 0.1;
+  
     
 };
-
