@@ -1,0 +1,45 @@
+
+var priceSize = 10;
+
+draw = function() {
+    
+    var price = "5.99";
+    
+    
+    background(255, 255, 255);
+    
+    fill(9, 38, 184);
+textSize(50);
+text("Canned Cans!!!", 50, 30);
+
+textSize(12);
+text("Ever Run out of cans?", 249, 75);
+text("That won't be a problem anymore!", 8, 101);
+text("With Canned Cans, you'll have unimagineable quanitites of cans!", 40, 127);
+text("'Why are they perserved?' You ask.", 8, 153);
+text("They'll never spoil !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!", 99, 179);
+text("Buy some Canned Cans for the low price of...", 8, 205);
+textSize(priceSize);
+text(" $ " + price + " ! ", -10, 351);
+
+    
+    fill(112, 103, 112);
+ellipse(191, 236, 45, 22);
+line(170,373,169,237);
+line(214,373,213,237);
+ellipse(192, 369, 45, 22);
+
+fill(219, 179, 219);
+rect(170, 284, 42, 37);
+
+fill(128, 116, 128);
+ellipse(191, 290, 17, 10); // 191. 236, 17, 10
+line(183,317,182,288); //183, 262, 182, 235
+line(201,317,200,288); // 201, 262, 200, 235
+ellipse(192, 315, 17, 10); //192, 261, 17, 10
+
+
+priceSize = priceSize + 0.1;
+
+    
+};
